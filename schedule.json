@@ -1,0 +1,284 @@
+[
+    {
+        "hari": "Senin",
+        "kegiatan": "Jam ke-1",
+        "jam": "08:00 - 09:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Senin",
+        "kegiatan": "Jam ke-2",
+        "jam": "09:10 - 10:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Senin",
+        "kegiatan": "Jam ke-3",
+        "jam": "10:40 - 12:00",
+        "istirahat": "1 jam"
+    },
+    {
+        "hari": "Senin",
+        "kegiatan": "Jam ke-4",
+        "jam": "13:00 - 14:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Senin",
+        "kegiatan": "Jam ke-5",
+        "jam": "14:10 - 15:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Senin",
+        "kegiatan": "FMD",
+        "jam": "15:30 - 16:00",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "Senin",
+        "kegiatan": "Mengerjakan Tugas",
+        "jam": "16:00 - 17:00",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "=====",
+        "kegiatan": "=======",
+        "jam": "==============",
+        "istirahat": "========"
+    },
+    {
+        "hari": "Selasa",
+        "kegiatan": "Jam ke-1",
+        "jam": "08:00 - 09:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Selasa",
+        "kegiatan": "Jam ke-2",
+        "jam": "09:10 - 10:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Selasa",
+        "kegiatan": "Jam ke-3",
+        "jam": "10:40 - 12:00",
+        "istirahat": "1 jam"
+    },
+    {
+        "hari": "Selasa",
+        "kegiatan": "Jam ke-4",
+        "jam": "13:00 - 14:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Selasa",
+        "kegiatan": "Jam ke-5",
+        "jam": "14:10 - 15:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Selasa",
+        "kegiatan": "FMD",
+        "jam": "15:30 - 16:00",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "Selasa",
+        "kegiatan": "Mengerjakan Tugas",
+        "jam": "16:00 - 17:00",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "=====",
+        "kegiatan": "=======",
+        "jam": "==============",
+        "istirahat": "========"
+    },
+    {
+        "hari": "Rabu",
+        "kegiatan": "Jam ke-1",
+        "jam": "08:00 - 09:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Rabu",
+        "kegiatan": "Jam ke-2",
+        "jam": "09:10 - 10:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Rabu",
+        "kegiatan": "Jam ke-3",
+        "jam": "10:40 - 12:00",
+        "istirahat": "1 jam"
+    },
+    {
+        "hari": "Rabu",
+        "kegiatan": "Jam ke-4",
+        "jam": "13:00 - 14:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Rabu",
+        "kegiatan": "Jam ke-5",
+        "jam": "14:10 - 15:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Rabu",
+        "kegiatan": "FMD",
+        "jam": "15:30 - 16:00",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "Rabu",
+        "kegiatan": "Mengerjakan Tugas",
+        "jam": "16:00 - 17:00",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "=====",
+        "kegiatan": "=======",
+        "jam": "==============",
+        "istirahat": "========"
+    },
+    {
+        "hari": "Kamis",
+        "kegiatan": "Jam ke-1",
+        "jam": "08:00 - 09:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Kamis",
+        "kegiatan": "Jam ke-2",
+        "jam": "09:10 - 10:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Kamis",
+        "kegiatan": "Jam ke-3",
+        "jam": "10:40 - 12:00",
+        "istirahat": "1 jam"
+    },
+    {
+        "hari": "Kamis",
+        "kegiatan": "Jam ke-4",
+        "jam": "13:00 - 14:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Kamis",
+        "kegiatan": "Jam ke-5",
+        "jam": "14:10 - 15:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Kamis",
+        "kegiatan": "FMD",
+        "jam": "15:30 - 16:00",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "Kamis",
+        "kegiatan": "Mengerjakan Tugas",
+        "jam": "16:00 - 17:00",
+        "istirahat": "NO Istirahat"
+    },
+        {
+        "hari": "=====",
+        "kegiatan": "=======",
+        "jam": "==============",
+        "istirahat": "========"
+    },
+    {
+        "hari": "Jum'at",
+        "kegiatan": "Jam ke-1",
+        "jam": "08:00 - 09:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Jum'at",
+        "kegiatan": "Jam ke-2",
+        "jam": "09:10 - 10:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Jum'at",
+        "kegiatan": "Jam ke-3",
+        "jam": "10:40 - 11:30",
+        "istirahat": "1 jam"
+    },
+    {
+        "hari": "Jum'at",
+        "kegiatan": "Jam ke-4",
+        "jam": "13:00 - 14:30",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Jum'at",
+        "kegiatan": "Jam ke-5",
+        "jam": "14:40 - 16:00",
+        "istirahat": "10 menit"
+    },
+    {
+        "hari": "Jum'at",
+        "kegiatan": "FMD",
+        "jam": "16:00 - 16:30",
+        "istirahat": "NO Istirahat"
+    },
+    {
+        "hari": "Jum'at",
+        "kegiatan": "Mengerjakan Tugas",
+        "jam": "16:30 - 17:30",
+        "istirahat": "NO Istirahat"
+    },
+            {
+        "hari": "=====",
+        "kegiatan": "=======",
+        "jam": "==============",
+        "istirahat": "========"
+    },
+    {
+        "hari": "Sabtu",
+        "kegiatan": "LIBUR",
+        "jam": "LIBUR",
+        "istirahat": "LIBUR"
+    },
+    {
+        "hari": "Sabtu",
+        "kegiatan": "LIBUR",
+        "jam": "LIBUR",
+        "istirahat": "LIBUR"
+    },
+    {
+        "hari": "Sabtu",
+        "kegiatan": "LIBUR",
+        "jam": "LIBUR",
+        "istirahat": "LIBUR"
+    },
+    {
+        "hari": "Sabtu",
+        "kegiatan": "LIBUR",
+        "jam": "LIBUR",
+        "istirahat": "LIBUR"
+    },
+    {
+        "hari": "Sabtu",
+        "kegiatan": "LIBUR",
+        "jam": "LIBUR",
+        "istirahat": "LIBUR"
+    },
+    {
+        "hari": "Sabtu",
+        "kegiatan": "LIBUR",
+        "jam": "LIBUR",
+        "istirahat": "LIBUR"
+    },
+    {
+        "hari": "Sabtu",
+        "kegiatan": "LIBUR",
+        "jam": "LIBUR",
+        "istirahat": "LIBUR"
+    }
+]

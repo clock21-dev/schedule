@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Pembelajaran Brexa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>📚 Jadwal Pembelajaran Brexa</h1>
+        <div id="scheduleContainer"></div>
+    </div>
+
+    <footer class="credit">
+        © <span id="year"></span> by.iaam21. All Rights Reserved.
+    </footer>
+
+    <script>
+        fetch('schedule.json')
+            .then(res => res.json())
+            .then(data => {
+
+                const container = document.getElementById("scheduleContainer");
+
+                // Kelompokkan berdasarkan hari
+                const grouped = {};
+
+                data.forEach(item => {
+                    if (!grouped[item.hari]) {
+                        grouped[item.hari] = [];
+                    }
+                    grouped[item.hari].push(item);
+                });
+
+                // Buat accordion per hari
+                Object.keys(grouped).forEach(hari => {
+
+                    if (hari.includes("=")) return; // skip garis pemisah
+
+                    const section = document.createElement("div");
+                    section.classList.add("accordion");
+
+                    section.innerHTML = `
+        <div class="accordion-header">
+          <span>${hari}</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-content">
+          <table>
+            <thead>
+              <tr>
+                <th>Kegiatan</th>
+                <th>Jam</th>
+                <th>Istirahat</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${grouped[hari].map(item => `
+                <tr>
+                  <td>${item.kegiatan}</td>
+                  <td>${item.jam}</td>
+                  <td>${item.istirahat}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+                    container.appendChild(section);
+                    document.getElementById("year").textContent = new Date().getFullYear();
+                });
+
+                // Event buka tutup
+                document.querySelectorAll(".accordion-header").forEach(header => {
+                    header.addEventListener("click", () => {
+                        const content = header.nextElementSibling;
+                        const arrow = header.querySelector(".arrow");
+
+                        content.classList.toggle("active");
+                        arrow.classList.toggle("rotate");
+                    });
+                });
+
+            });
+    </script>
+
+</body>
+
+</html>
